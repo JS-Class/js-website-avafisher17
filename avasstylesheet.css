@@ -32,3 +32,35 @@ footer {
     line-height: 2.5em;
     font-family: 'Courier New', Courier, monospace;
 }
+
+nav {
+    display: block;
+    line-height: 1.5em;
+}
+
+nav ul {
+    background-color: rgb(236, 49, 133);
+}
+
+nav li {
+    display: inline;
+    padding-right: 40px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: rgb(63, 9, 113);
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: rgb(63, 9, 113);
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a:active {
+    color: gold;
+}
