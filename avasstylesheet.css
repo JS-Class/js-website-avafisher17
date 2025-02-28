@@ -84,3 +84,29 @@ tr:hover {
 th {
     text-align: left;
 }
+
+#tagline {
+    color: crimson;
+    text-align: center;
+    font-style: italic;
+}
+
+#logo {
+    text-align: center;
+}
+
+#toppings {
+    border: solid 2px crimson;
+    border-collapse: collapse;
+}
+
+#toppings tr, #toppings td, #toppings th {
+    color: black;
+    border: solid 2px crimson;
+    padding: 6px;
+}
+
+#toppings tr:hover {
+    color: black;
+    background-color: white;
+}
