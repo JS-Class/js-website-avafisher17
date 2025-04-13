@@ -110,3 +110,27 @@ th {
     color: black;
     background-color: white;
 }
+
+body.pizza {
+    background-image: url(images/pizza.png);
+    background-color: rgb(240, 239, 193);
+    background-attachment: fixed;
+}
+
+p.pizza, fieldset.pizza {
+    background-color: rgb(240, 239, 193, .75);
+}
+
+body {
+    background-image: url(images/pink.jpg);
+    background-color: rgb(237, 197, 212);
+    background-attachment: fixed;
+}
+
+p {
+    background-color: rgb(237, 197, 212, .75)
+}
+
+#tabs p {
+    background-color: transparent;
+}

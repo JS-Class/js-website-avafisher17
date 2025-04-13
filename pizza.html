@@ -9,7 +9,7 @@
     <title>Pizza Order Form</Form></title>
 </head>
 
-<body>
+<body class="pizza">
     <header>
         <h1>Cheesus Crust</h1>
     </header>
@@ -25,18 +25,18 @@
     
     <main>
         <h2 id="tagline">"Holy Crust, that's good pizza!</h2>
-        <div id="logo"><img src="Cheesus Crust Logo.png" alt= "A pizza place logo with a happy slice of cheesy pizza"
+        <div id="logo"><img src="images/Cheesus Crust Logo.png" alt= "A pizza place logo with a happy slice of cheesy pizza"
             height="200" width="200"></div><br>
         <h3>- Welcome to Cheesus Crust — where every slice is a holy experience! -</h3>
         <h3>Let us bless your taste buds with a slice of divine deliciousness</h3>
-        <p>Customer Name: <input type="text" name="name" id="name" autofocus></p>
-        <p>Address Line 1: <input type="text" name="address1" id="address1"></p>
-        <p>Address Line 2: <input type="text" name="address2" id="address2" placeholder="Room or Apt #"></p>
-        <p>City: <input type="text" name="city" id="city"> State: <input type="text" name="state" id="state">
+        <p class="pizza">Customer Name: <input type="text" name="name" id="name" autofocus></p>
+        <p class="pizza">Address Line 1: <input type="text" name="address1" id="address1"></p>
+        <p class="pizza">Address Line 2: <input type="text" name="address2" id="address2" placeholder="Room or Apt #"></p>
+        <p class="pizza">City: <input type="text" name="city" id="city"> State: <input type="text" name="state" id="state">
             Zipcode: <input type="text" name="zip" id="zip" maxlength="5"></p>
-        <p>Phone Number: <input type="tel" name="phone" id="phone"></p>
-        <p> 
-            <fieldset>
+        <p class="pizza">Phone Number: <input type="tel" name="phone" id="phone"></p>
+        <p class="pizza"> 
+            <fieldset class="pizza">
                 <h4>Pizza Size:</h4>
                 <input type="radio" name="small" id="small">
                 <label for="small">Small</label><br>
@@ -48,8 +48,8 @@
                 <label for="xl">X-Large</label>
             </fieldset>
         </p>
-        <p>
-            <fieldset>
+        <p class="pizza">
+            <fieldset class="pizza">
                 <h4>Toppings:</h4>
                 <table id="toppings">
                     <tr>
@@ -94,10 +94,10 @@
                 </table>
             </fieldset>
         </p>
-        <p>Notes to the Chef</p>
-        <p><textarea name="notes" id="notes" col="30" rows="10">
+        <p class="pizza">Notes to the Chef</p>
+        <p class="pizza" ><textarea name="notes" id="notes" col="30" rows="10">
             </textarea></p>
-        <p><input type="submit" value="Submit Order"></p>
+        <p class="pizza"><input type="submit" value="Submit Order"></p>
     </main>
 </body>
 

@@ -7,6 +7,9 @@
         <meta name="keywords" content="Ava, Fisher, cryptids, myths, urban legends, mothman, bigfoot">
         <title>Ava's Favorite Cryptids</title>
         <link rel= "stylesheet" href="avasstylesheet.css" type= "text/css">
+        <link rel= "stylesheet" href="jquery-ui-1.14.1.custom/jquery-ui.min.css" type= "text/css">
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="jquery-ui-1.14.1.custom/jquery-ui.min.js"></script>
     </head>
 
     <body>
@@ -29,16 +32,44 @@
                 urban legends, folklore creatures, and other tales of cryptids.
             </p>
 
-            <ul>
-                <li>The Mothman</li>
-                <li>Bigfoot/ Sasquatch / Skunk Ape</li>
-                <li>The Goatman of Shane and Ryan's Bridge</li>
-                <li>The Jersey Devil</li>
-                <li>Squonk</li>
-                <li>Chupacabra</li>
-                <li>Skinwalkers</li>
-            </ul>
-            
+            <script>
+                $(document).ready( () =>
+                    $("#tabs").tabs()
+                )
+            </script>
+
+            <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">The Mothman</a></li>
+                  <li><a href="#tabs-2">Sasquatch</a></li>
+                  <li><a href="#tabs-3">The Goatman</a></li>
+                  <li><a href="#tabs-4">The Jersey Devil</a></li>
+                  <li><a href="#tabs-5">Squonk</a></li>
+                  <li><a href="#tabs-6">Chupacabra</a></li>
+                  <li><a href="#tabs-7">Skinwalkers</a></li>
+                </ul>
+                <div id="tabs-1">
+                  <p>10/10. Mothman folklore is nice, but it's the culture surrounding him that makes him great. A festival, a 90s movie, a whole TikTok trend. Plus a statue of him that definitely proves he's into Crossfit.</p>
+                </div>
+                <div id="tabs-2">
+                  <p>Again, 10/10. Sasquatch has got variety; is he the spirit protector of the forest, like Native Americans claim? Or is he simply an undiscovered yet un-supernatural species? Another aspect of Sasquatch lore is how prevalent it is world-wide. The Pacific Northwest has Bigfoot, Florida has the Skunk-Ape, Nepal has the Yeti, Japan has the Hibagon, Indonesia has the Ebu Gogo. Really makes you wonder...</p>
+                </div>
+                <div id="tabs-3">
+                  <p>5/10. The Goatman of Devil's Bridge is nothing but fodder for legend-tripping teenagers - but then, is that a bad thing? Added points for him being featured on a Buzzfeed Unsolved episode though.</p>
+                </div>
+                <div id="tabs-4">
+                  <p>8/10. The only bad thing about the Jersey Devil is the poor guy's stuck in New Jersey. Other than that though, I have a hunch that he and Mothman are one in the same. On what grounds? Just a gut feeling.</p>
+                </div>
+                <div id="tabs-5">
+                  <p>9/10 for the poor little Squonk. We all love a guy who's not afraid to show his sensitive side... My only problem is that I never heard about him sooner.</p>
+                </div>
+                <div id="tabs-6">
+                  <p>7/10. "Animal kills livestock" isn't exactly the most riveting origin story for a cryptid, but I'm here for some latino representation in this list.</p>
+                </div>
+                <div id="tabs-7">
+                  <p>10/10. My Grandma on the rez says that the police get calls about "The Enemies" all the time. Scary stuff right there.</p>
+                </div>
+              </div>
 
         </main>
 
