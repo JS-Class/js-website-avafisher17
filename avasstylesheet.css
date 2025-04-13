@@ -1,0 +1,136 @@
+header {
+    color:rgb(110, 5, 89);
+    text-align: center;
+    background-color: rgb(232, 137, 183);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.5em;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    color: rgb(110, 5, 89);
+}
+
+.schools {
+    color: rgb(232, 137, 183);
+    background-color: rgb(110, 5, 89);
+}
+
+ul {
+    background-color: rgb(183, 43, 122);
+    color: whitesmoke;
+    font-weight: bold;
+    line-height:1.46em;
+    list-style-position: outside;
+}
+
+footer {
+    background-color: rgb(110, 5, 89);
+    color: rgb(232, 137, 183);
+    text-align: center;
+    line-height: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: block;
+    line-height: 1.5em;
+}
+
+nav ul {
+    background-color: rgb(236, 49, 133);
+}
+
+nav li {
+    display: inline;
+    padding-right: 40px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: rgb(63, 9, 113);
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: rgb(63, 9, 113);
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a:active {
+    color: gold;
+}
+
+table {
+    border: solid 2px rgb(236, 49, 133);
+    color: rgb(63, 9, 113);
+}
+
+tr, td, th {
+    border: solid 2px rgb(236, 49, 133);
+    padding: 6px;
+}
+
+tr:hover {
+    color: gold;
+    background-color: rgb(63, 9, 113);
+}
+
+th {
+    text-align: left;
+}
+
+#tagline {
+    color: crimson;
+    text-align: center;
+    font-style: italic;
+}
+
+#logo {
+    text-align: center;
+}
+
+#toppings {
+    border: solid 2px crimson;
+    border-collapse: collapse;
+}
+
+#toppings tr, #toppings td, #toppings th {
+    color: black;
+    border: solid 2px crimson;
+    padding: 6px;
+}
+
+#toppings tr:hover {
+    color: black;
+    background-color: white;
+}
+
+body.pizza {
+    background-image: url(images/pizza.png);
+    background-color: rgb(240, 239, 193);
+    background-attachment: fixed;
+}
+
+p.pizza, fieldset.pizza {
+    background-color: rgb(240, 239, 193, .75);
+}
+
+body {
+    background-image: url(images/pink.jpg);
+    background-color: rgb(237, 197, 212);
+    background-attachment: fixed;
+}
+
+p {
+    background-color: rgb(237, 197, 212, .75)
+}
+
+#tabs p {
+    background-color: transparent;
+}
